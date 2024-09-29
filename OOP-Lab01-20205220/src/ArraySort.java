@@ -10,7 +10,6 @@ public class ArraySort {
 		int size = scanner.nextInt();
 		array = new int[size];
 		for (int i = 0; i < size; i++) {
-			System.out.print("Enter element " + (i + 1) + ": ");
 			array[i] = scanner.nextInt();
 		}
 		Arrays.sort(array);
